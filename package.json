@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "dev": "tsc && nodemon -e ts -w . -x ts-node index.ts",
+    "dev": "nodemon -e ts -w . -x npx tsx index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "@types/node": "^20.11.19",
     "@types/uuid": "^9.0.8",
     "nodemon": "^3.0.3",
+    "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   }
 }
